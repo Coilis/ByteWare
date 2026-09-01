@@ -22,7 +22,7 @@ local Bytex = {
 
 ]]--
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bytexlol/bytexreanimation/refs/heads/main/lib.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Coilis/ByteWare/refs/heads/main/lib.lua"))()
 
 local bytexgui = Library:create{
     Theme = Library.Themes.Dark,
@@ -109,7 +109,7 @@ function Reanimate(BytexConvert_HatID, BytexConvert_HatCFrame, BytexConvert_HatL
             end
         end
 
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/farouq07/Bytex-BackUp/refs/heads/main/ReanimaTion.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Coilis/ByteWare/refs/heads/main/ReanimaTion.lua"))()
         
         wait(0.5)
         if Bytex.UseHats then
@@ -232,7 +232,7 @@ local Global = (getgenv and getgenv()) or shared
             end
         end
 
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/farouq07/Bytex-BackUp/refs/heads/main/ReanimaTion.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Coilis/ByteWare/refs/heads/main/ReanimaTion.lua"))()
         
         wait(0.5)
         bytexgui:Notification{
@@ -243,7 +243,7 @@ local Global = (getgenv and getgenv()) or shared
 end
 
 function runScript(scr)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/farouq07/Bytex-BackUp/refs/heads/main/scripts/"..scr..".lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Coilis/ByteWare/refs/heads/main/scripts/"..scr..".lua"))()
 end
 
 function runScript2(scr, id, cframe, id2, cframe2, id3, cframe3)
@@ -260,7 +260,7 @@ function runScript2(scr, id, cframe, id2, cframe2, id3, cframe3)
         
     }
 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/farouq07/Bytex-BackUp/refs/heads/main/scripts/"..scr..".lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Coilis/ByteWare/refs/heads/main/scripts/"..scr..".lua"))()
 end
 
 --[[
